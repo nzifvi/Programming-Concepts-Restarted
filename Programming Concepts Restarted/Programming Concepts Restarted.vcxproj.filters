@@ -13,5 +13,42 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Header Files\Worksheets">
+      <UniqueIdentifier>{473dd201-8368-4d27-8d2e-40ac8f39bc93}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Homework">
+      <UniqueIdentifier>{fae8215e-882f-41ca-ae56-386b391d3197}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Homework">
+      <UniqueIdentifier>{f411eab4-1ad6-491a-ba17-087b45d30073}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Worksheets">
+      <UniqueIdentifier>{5bc7b959-2640-47d1-9c77-5bae6ab35139}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="myArray.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="WEEK2WS.h">
+      <Filter>Header Files\Worksheets</Filter>
+    </ClCompile>
+    <ClCompile Include="WEEK2WS.cpp">
+      <Filter>Source Files\Worksheets</Filter>
+    </ClCompile>
+    <ClCompile Include="WEEK3WS.h">
+      <Filter>Header Files\Worksheets</Filter>
+    </ClCompile>
+    <ClCompile Include="WEEK3WS.cpp">
+      <Filter>Source Files\Worksheets</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="myArray.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
